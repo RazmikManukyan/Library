@@ -228,7 +228,14 @@ int main() {
     library.returnMaterial(book1);
     library.returnMaterial(journal1);
     library.returnMaterial(dvd1);
-
+    
+    delete book1; 
+    delete book2;
+    delete journal1;
+    delete journal2;
+    delete dvd1;
+    delete dvd2;
+      
 
     return 0;
 }
